@@ -1,7 +1,11 @@
 .header {
   text-align:center;
   font-family:Garamond;
-  color:grey;
+}
+
+.time {
+  text-align:center;
+  font-family:Garamond;
   margin-bottom:30px;
 }
 
