@@ -6,3 +6,5 @@ gem "sinatra"
 gem "rake"
 gem "shotgun"
 gem "thin"
+
+gem "nokogiri"
