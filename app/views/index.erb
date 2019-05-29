@@ -1,4 +1,8 @@
-<h1 style="text-align:center;font-family:Garamond;color:grey">HimalayanTimesHeadlines</h1>
+<h1 class="header">HimalayanTimes Headlines</h1>
+<div class="container">
 <% @headlines.each do |headline| %>
-  <%= headline %> <br>
+  <div class="row margin-left">
+    <%=headline%>
+  </div>
 <% end %>
+</div>
