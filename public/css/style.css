@@ -1,14 +1,34 @@
 .header {
   text-align:center;
   font-family:Garamond;
+  line-height: 150%;
 }
 
-.time {
-  text-align:center;
+.himalayan-times {
+  color: #B10DC9;
+}
+
+.headlines {
+  color: #F012BE;
+}
+
+.sub-header {
   font-family:Garamond;
-  margin-bottom:30px;
+  text-align:center;
+  line-height: 125%;
+  color: #001f3f;
+  margin-bottom: 40px;
 }
 
-.margin-left {
-  margin-left:5%;
+.news-box {
+  margin-left: 10%;
+}
+
+.prompt {
+  color: #F012BE;
+}
+
+.headline {
+  line-height: 125%;
+  color: #111111;
 }

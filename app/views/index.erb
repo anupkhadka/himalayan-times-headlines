@@ -1,9 +1,9 @@
-<h1 class="header">HimalayanTimes Headlines</h1>
-<h4 class="time"><%=Time.new.to_s%></h4>
-<div class="container">
-<% @headlines.each do |headline| %>
-  <div class="row margin-left">
-    <%=headline%>
-  </div>
-<% end %>
+<h1 class="header"><span class="himalayan-times">Himalayan Times</span> <span class="headlines">Headlines</span></h1>
+<h4 class="sub-header">Headlines scraped from <a href="https://thehimalayantimes.com/">The Himalayan Times</a> on <%=Time.now.strftime("%B %d, %Y")%></h4>
+<div class="container news-box">
+  <% @headlines.each do |headline| %>
+    <div class="row">
+      <span class="prompt">~></span> <span class="headline"><%=headline%></span>
+    </div>
+  <% end %>
 </div>
