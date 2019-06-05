@@ -1,38 +1,47 @@
 .cover-photo {
-  width: 100%;
+  width: 80%;
+  height: 100px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
-.header {
+.title {
   text-align:center;
   font-family:Garamond;
   line-height: 150%;
 }
 
-.himalayan-times {
+.title-1 {
   color: #B10DC9;
 }
 
-.headlines {
+.title-2 {
   color: #F012BE;
 }
 
-.sub-header {
-  font-family:Garamond;
-  text-align:center;
-  line-height: 125%;
+.sub-title {
   color: #001f3f;
   margin-bottom: 40px;
 }
 
 .news-box {
-  margin-left: 10%;
+  width: 500px;
+  height: 300px;
+  border-style: solid;
+  border-width: 1px;
+  align-self: center;
+  overflow: scroll;
 }
 
-.prompt {
-  color: #F012BE;
+.news-list {
+  padding-left: 5px;
+  padding-top: 10px;
+  padding-right: 5px;
 }
 
 .headline {
   line-height: 125%;
+  font-size: 16px;
   color: #111111;
+  margin-bottom: 10px;
 }
