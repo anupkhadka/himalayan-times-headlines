@@ -1,10 +1,14 @@
-<img src="images/mountain.jpg" class="cover-photo">
-<h1 class="title"><span class="title-1">Himalayan Times</span> <span class="title-2">Headlines</span></h1>
-<h4 class="title sub-title">Headlines scraped from <a href="https://thehimalayantimes.com/">The Himalayan Times</a> on <%=Time.now.strftime("%B %d, %Y")%></h4>
-<div class="container news-box">
-  <div class="news-list">
-    <% @headlines.each do |headline| %>
-      <div class="headline">+ <%=headline%></div>
-    <% end %>
+<div class="container text-center">
+  <img src="images/mountain.jpg" class="cover-photo">
+  <h1 class="title"><span class="title-1">Himalayan Times</span> <span class="title-2">Headlines</span></h1>
+  <h4 class="title sub-title">Headlines scraped from <a href="https://thehimalayantimes.com/">The Himalayan Times</a> on <%=Time.now.strftime("%B %d, %Y")%></h4>
+  <div class="container text-center">
+    <div class="news-box">
+      <div class="news-content">
+        <% @headlines.each do |headline| %>
+          <div class="headline">+ <%=headline%></div>
+        <% end %>
+      </div>
+    </div>
   </div>
 </div>
